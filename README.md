@@ -40,17 +40,17 @@ cd MSTIP
 
 py -3.10 -m venv chatbot-env
 chatbot-env\Scripts\activate
+
 📦 Install Dependencies
-
 pip install -r requirements.txt
+
 🏋️‍♀️ Train the Chatbot Model (Optional)
-
 python train_chatbot.py
+
 🧪 Test via Command Line
-
 python chat.py
-🌐 Run Flask Web App
 
+🌐 Run Flask Web App
 python app.py
 🖥️ Open in your browser: http://127.0.0.1:5000
 
