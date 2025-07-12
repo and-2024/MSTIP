@@ -37,37 +37,25 @@ cd MSTIP
 
 
 ⚙️ Set Up Virtual Environment (Windows)
-bash
-Copy
-Edit
+
 py -3.10 -m venv chatbot-env
 chatbot-env\Scripts\activate
 📦 Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 🏋️‍♀️ Train the Chatbot Model (Optional)
-bash
-Copy
-Edit
+
 python train_chatbot.py
 🧪 Test via Command Line
-bash
-Copy
-Edit
+
 python chat.py
 🌐 Run Flask Web App
-bash
-Copy
-Edit
+
 python app.py
 🖥️ Open in your browser: http://127.0.0.1:5000
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 MSTIP/
 ├── chatbot-env/            # Virtual environment (excluded)
 ├── templates/              # HTML templates for Flask
